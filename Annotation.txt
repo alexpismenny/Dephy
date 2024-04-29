@@ -33,6 +33,8 @@ Note:
 	As files are added, content altered with write_raw may be overwritten
 	A file name with the same name as a file name already written is appended with a version number "(1)", etc.
 
+To build, simply say 'make'
+
 The test pattern is this:
 
 1. Erase memory (./main [-v] erase)
@@ -43,4 +45,3 @@ The test pattern is this:
 6. Read them on the console or redirect to an output file.
 7. Using a web browser, view the EPROM memory map at file:///home/alexpismenny/Projects/Dephy/sw-coding-assignment/.html (your directory structure might differ).
  
-
